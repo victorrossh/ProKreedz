@@ -24,12 +24,12 @@
 1. **MySQL Database:**
 - Ensure you have a MySQL database set up.
 2. **Configure MySQL Connection:**
-- Open the config.php file.
+- Open the `config.php` file.
 - Configure the MySQL connection details:
 ```C#
-    define("DB_HOST", "127.0.0.1");
-    define("DB_USER", "user");
-    define("DB_PASS", "password");
+    define("DB_HOST", "localhost");
+    define("DB_USER", "your_user");
+    define("DB_PASS", "your_password");
     define("DB_NAME", "db_name");
     define("DB_TYPE", "mysql");
 ```
