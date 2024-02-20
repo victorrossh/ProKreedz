@@ -24,7 +24,7 @@
 1. **MySQL Database:**
 - Ensure you have a MySQL database set up.
 2. **Configure MySQL Connection:**
-- Open the config.php file.
+- Open the `config.php` file.
 - Configure the MySQL connection details:
 ```C#
     define("DB_HOST", "127.0.0.1");
