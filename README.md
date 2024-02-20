@@ -1,4 +1,5 @@
 # ProKreedz plugin  [![GitHub release](https://img.shields.io/github/release/michaelkheel/ProKreedz.svg)](https://github.com/MichaelKheel/ProKreedz/releases)
+This repository is dedicated to the ProKreedz plugin, designed to showcase the top table in a web-based format.
 
 ### Supported Build
 * ReHLDS 3.4.0.X
