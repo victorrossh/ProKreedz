@@ -5,7 +5,9 @@ require_once("app/functions.php");
 
 require_once("app/config.php");
 
-function __autoload($class){include_once("class/".$class.".class.php");}
+spl_autoload_register(function ($class) {
+    include_once("class/" . $class . ".class.php");
+});
 
 ?>
 <!DOCTYPE html>
